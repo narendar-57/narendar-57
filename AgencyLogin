@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            background-color: white;
+            
+        }
+        .contain{
+        
+            justify-content: center;
+            text-align: center;
+            border: 10px solid green;
+            border-radius: 20px;
+            margin-top: 10%;
+            padding: 30px;
+            margin-left: 35%;
+            background-color: lightblue;
+            height: 40%;
+            width: 30%;
+           
+        }
+        .main{
+            padding: 10px;
+            border-radius: 3px;
+           
+
+        }
+        .a{
+            padding: 10px;
+            display: inline;
+            justify-content: flex-end;
+        }
+        .b{
+            padding: 10px;
+        }
+        button{
+            margin: 10px;
+            width: 10%;
+            cursor: pointer;
+            column-rule-color: brown;
+        }
+        #btn{
+            height: fit-content;
+            width: fit-content;
+            background-color: lightskyblue;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <h2>Kiran Agencies</h2>
+        <h2>user login </h2>
+        <div class="main">
+            <form method="post" action="sam.html" target="_blank">
+                <div class="a">
+            <label for="name">Username</label>
+            <input type="text" name="name" required placeholder="enter user name">
+        </div>
+        <div class="b">
+            <label for="password">password</label>
+            <input type="password" name="password" required placeholder="enter password">
+        </div>
+        <hr>
+        <button type="submit" name="submit" id="btn">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
