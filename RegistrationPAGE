@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            
+        }
+        .container{
+            text-align: center;
+            margin-top: 15%;
+        }
+        .tittle{
+            margin-bottom: 30px;
+            color: brown;
+        }
+        #hi{
+            margin: 3px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        #hi1{
+            margin: 3px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        .A1{
+            margin: 3px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        #hlo{
+            margin: 3px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        #hei{
+            margin: 3px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        #hio{
+            margin: 3px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        #hai{
+            margin: 3px;
+            padding: 3px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div  class="container">
+        <div class="tittle"><b>User Registration</b></div>
+        <div class="main">
+            <form>
+                <label for="name">your name</label>
+                <input type="text" name="name" id="hi" placeholder="enter your first name"  required>
+                <input type="text" name="name" id="hi1" placeholder="enter your last name"  required><br>
+                <label for="name">User name</label>
+                <input type="text" maxlength="30" class="A1" required><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="hlo" placeholder="enter mail id"  required><br>
+                <label for="password">Password</label>
+                <input type="password" id="hei" placeholder="enter your password"  required><br>
+                <label for="number">Phone</label>
+                <input type="number" id="hio" max="10" placeholder="Phone"><br>
+                
+
+                <input type="button" name="submit" value="Register Now" id="hai">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
