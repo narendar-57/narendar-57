@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+    .form{
+        width: 350px;
+        height: 350px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background-image: url("https://www.idexonline.com/image_bank/NewsRoom_FullArticle/locations/kiran_surathq.jpg");
+        background-size: 350px 350px;
+    }
+    .user img{
+        width: 70px;
+        height: 80px;
+    }
+    .field{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .field input{
+        width: 100%;
+        outline: none;
+        border: 2px solid #93899e91;
+        border-radius: 10px black;
+        padding: 5px;
+    }
+    #A1{
+        border: none;
+        outline: none;
+        background-color: #898ae4;
+        width: 100%;
+        padding: 10px;
+        margin: 7px 0;
+        border-radius: 10px;
+        color: aliceblue;
+        cursor: pointer;
+        
+    }
+ button{
+        text-align: center;
+        color: skyblue;
+        cursor: pointer;
+
+    }
+    
+    </style>
+</head>
+<body>
+    <form action=" " method="get" target="_blank">
+    <div class="form">
+      <div class="user">
+        <img src="https://cdn1.iconfinder.com/data/icons/online-money/80/onlinemoney-12-512.png" alt="user icon" >
+      </div>
+      <div class="field">
+        <label for="name">User name</label>
+        <input type="text" name="name" placeholder="username" maxlength="25">
+        <label for="Password">Password</label>
+        <input type="password" name="password" placeholder="*******" maxlength="10">
+        <button id="A1">Login</button><hr>
+
+      </div>
+      <form action="hlo.html" method="get" target="_blank" >
+        <button>Register</button>
+    </form>
+    </div>
+</form>
+</body>
+</html>
