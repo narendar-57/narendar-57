@@ -73,6 +73,7 @@
       <div class="user">
         <img src="https://cdn1.iconfinder.com/data/icons/online-money/80/onlinemoney-12-512.png" alt="user icon" >
       </div>
+      <div class="tit"><b>Kiran agencies</b></div>
       <div class="field">
         <label for="name">User name</label>
         <input type="text" name="name" placeholder="username" maxlength="25">
