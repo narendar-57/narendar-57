@@ -14,7 +14,7 @@
 
         }
         .main{
-            
+            box-shadow: 0px 0 15px black;
         }
         .tittle{
             background-color: black;
@@ -25,6 +25,7 @@
             justify-content: space-between;
             padding-top: 30px;
             position: fixed;
+           
         }
         ol{
             display: flex;
@@ -41,7 +42,7 @@
             display: flex;
             justify-content: space-evenly;
             margin-top: 15px;
-            
+           
         }
         .exo{
             display: flex;
@@ -71,6 +72,10 @@
         .a1{
             margin-top: 18px;
         }
+        .footer{
+            background-color: blueviolet;
+            
+        }
     </style>
 </head>
 <body>
@@ -90,8 +95,8 @@
         <h2>Vim</h2><hr>
         <div class="categery">
             <div class="items">
-               <img src="C:\Users\linga\Downloads\projectK\vim1.jpeg" height="170px" width="225px">
-                <img src="C:\Users\linga\Downloads\projectK\vim2.jpeg">
+              <div class="d1"><img src="C:\Users\linga\Downloads\projectK\vim1.jpeg" height="170px" width="225px"></div>
+                <div class="d2"><img src="C:\Users\linga\Downloads\projectK\vim2.jpeg"></div>
                 <img src="C:\Users\linga\Downloads\projectK\vim3.jpeg" height="225px" width="225px">
                 <img src="C:\Users\linga\Downloads\projectK\vim4.jpeg">
             </div><br><br>
@@ -133,8 +138,11 @@
                 <img src="C:\Users\linga\Downloads\projectK\ujala3.jpg"  height="225px" width="225px">
                 <img src="C:\Users\linga\Downloads\projectK\ujala4.jpg"  height="225px" width="225px" bgcolor="white">
               </div>
+        </div><br><br>
+        <div class="footer">
+            <div class="ad"><p>Dammaiguda</p><br><p>ECIL Bus stand Hyderabad</p><br><p>Telangana in india</p></div><br>
+            <div class="info"><p>shiva nagu krishna</p><br><p>snk@gmail.com</p><br>Contact:9087654321</div>
         </div>
-        
     </div>
 </body>
 </html>
