@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETAILS</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+         .menu{
+            display: flex;
+            
+         }
+         .item{
+            margin: 15%;
+         }
+         .details{
+            margin-top: 4%;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="item">
+            <img src="https://www.hubspot.com/hubfs/23_%204%20Easy%20Ways%20to%20Insert%20Spaces%20in%20HTML.png" height="200px" width="250px" alt="website logo">
+
+            </div>
+            <div class="details">
+                <h2>Specification</h2><br><br><br>
+                <p><b>Brand &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; vim</b></p><br>
+                <p><b>Netweight &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1</p></b><br>
+                <p><b>Model name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NA</b></p><br>
+                <p><b>Chemical Free &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; YES</b></p><br>
+                <p><b>Maximum Self Life &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 24 Months</b></p><br>
+                <p><b>Fragrance &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lemon</b></p><br>
+                <p><b>Shape &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rectangle</b></p><br>
+                <p><b>Netweight &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1</b></p><br>
+                <br><br>
+                <h2>Dimmensions</h2><br><br>
+                <p><b>weight &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 300g</b></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
